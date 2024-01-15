@@ -86,6 +86,11 @@ require('lazy').setup({
         topdelete = { text = '‾' },
         changedelete = { text = '~' },
       },
+      update_debounce = 50,
+      current_line_blame = true,
+      current_line_blame_opts = {
+        delay = 250,
+      },
       on_attach = function(bufnr)
         local gs = package.loaded.gitsigns
 
