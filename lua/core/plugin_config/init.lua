@@ -1,0 +1,6 @@
+require 'core.plugin_config.highlight-yank'
+require 'core.plugin_config.lsp'
+require 'core.plugin_config.nvim-cmp'
+require 'core.plugin_config.nvim-tree'
+require 'core.plugin_config.telescope'
+require 'core.plugin_config.treesitter'
