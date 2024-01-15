@@ -20,6 +20,7 @@ require('lazy').setup({
 	require 'core.plugins.nvim-tree',
 	require 'core.plugins.nvim-treesitter',
 	require 'core.plugins.which-key',
+	require 'core.plugins.toggleterm',
 	-- Custom plugins
 	require 'custom.plugins.autoformat',
 	require 'custom.plugins.debug',
