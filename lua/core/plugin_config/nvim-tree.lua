@@ -1,3 +1,8 @@
+require('nvim-tree').setup {
+	view = {
+		adaptive_size = true,
+	},
+}
 -- Always open nvim-tree
 local function open_nvim_tree(data)
 	-- buffer is a real file on the disk
